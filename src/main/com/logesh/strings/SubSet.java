@@ -1,6 +1,6 @@
 package src.main.com.logesh.strings;
 
-import java.sql.Array;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +15,7 @@ public class SubSet {
      * @param args command line arguments
      */
     public static void main(String[] args) {
-        // System.out.println(subset(new int[]{1,2,3}) );
+        System.out.println(subset(new int[]{1,2,3}) );
         System.out.println(subsetDuplicate(new int[]{1,2,2}) );
     }
 
@@ -47,7 +47,7 @@ public class SubSet {
      */
     public static List<List<Integer>> subsetDuplicate(int[] arr){
         List<List<Integer>> outer = new ArrayList<>();
-        int start=0;
+        int start;
         int end = 0;
         outer.add(new ArrayList<>());
         for(int i=0;i<arr.length;i++){

@@ -42,7 +42,7 @@ public class SubSeq {
      */
     public static ArrayList<String> subseqArr(String processed, String unprocessed) {
         if (unprocessed.isEmpty()) {
-            ArrayList<String> result = new ArrayList<String>();
+            ArrayList<String> result = new ArrayList<>();
             result.add(processed);
             return result;
         }
