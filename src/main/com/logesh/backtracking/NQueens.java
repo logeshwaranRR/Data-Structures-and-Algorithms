@@ -1,4 +1,4 @@
-git package src.main.com.logesh.backtracking;
+package src.main.com.logesh.backtracking;
 
 public class NQueens {
     public static void main(String[] args) {
