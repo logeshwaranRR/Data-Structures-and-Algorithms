@@ -16,6 +16,7 @@ public class NQueens {
     }
 
     static int queens(boolean[][] board, int row){
+        //board.length exceeds board length so we use it to check end of board
         if(row== board.length){
             display(board);
             System.out.println();
