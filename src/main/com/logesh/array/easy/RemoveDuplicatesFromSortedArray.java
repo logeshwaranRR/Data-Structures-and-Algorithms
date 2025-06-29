@@ -4,7 +4,10 @@ public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         int[] arr = {0,0,1,1,1,2,2,3,3,4};
         RemoveDuplicatesFromSortedArray obj = new RemoveDuplicatesFromSortedArray();
-        System.out.println(obj.removeDuplicates(arr));
+      int k = obj.removeDuplicates(arr);
+      for(int i=0;i<k;i++){
+          System.out.println(arr[i]);
+      }
 
     }
 
