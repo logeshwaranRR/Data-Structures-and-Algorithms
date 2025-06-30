@@ -12,7 +12,7 @@ public class MissingNumber {
         xor1 ^= i;
         xor2 ^= nums[i];
     }
-    xor2 ^= nums.length;
+    xor1 ^= nums.length;
     return xor1^xor2;
     }
 }
